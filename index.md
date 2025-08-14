@@ -1,1 +1,3 @@
-# A fabulous Earth Data Science Portfolio
+# Markus Jesswein
+
+- https://cires.colorado.edu/people/markus-jesswein
