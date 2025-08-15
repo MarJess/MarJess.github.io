@@ -6,3 +6,4 @@
 
 ## Educational and professional background 
 
+![Mississippi Delta](https://deltax.jpl.nasa.gov/img/delta-google-earth.jpg)
