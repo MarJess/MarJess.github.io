@@ -1,8 +1,6 @@
 # Markus Jesswein
 ![Markus profile photo](/img/jesswein.png)
 
-<img style="float: right;" src="img/jesswein.png" width="25%">
-
 
 * E-mail: markus.jesswein@colorado.edu
 * https://cires.colorado.edu/people/markus-jesswein
