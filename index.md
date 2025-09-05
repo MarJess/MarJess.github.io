@@ -1,5 +1,5 @@
 ---
-layout: _layouts/default
+layout: home
 title: null
 ---
 * Test
