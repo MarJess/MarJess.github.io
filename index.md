@@ -1,8 +1,8 @@
 * E-mail: markus.jesswein@colorado.edu
 * Web: https://cires.colorado.edu/people/markus-jesswein
-* GitHub: <a href="https://github.com/MarJess" target="_blank">@MarJess</a>
 * ORCiD: <a href="https://orcid.org/0000-0001-8966-9787" target="_blank">0000-0001-8966-9787</a>
 
+## Personal background
 
 ## Educational and professional background 
 
