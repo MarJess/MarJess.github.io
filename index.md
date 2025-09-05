@@ -1,7 +1,3 @@
-# Markus Jesswein
-<img src="/img/jesswein_min.jpg" width="300" height="300"/>
-
-
 * E-mail: markus.jesswein@colorado.edu
 * Web: https://cires.colorado.edu/people/markus-jesswein
 * GitHub: <a href="https://github.com/MarJess" target="_blank">@MarJess</a>
