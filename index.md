@@ -1,5 +1,5 @@
 # Markus Jesswein
-![Markus profile photo](/img/jesswein.png)
+![Markus profile photo](/img/jesswein_min.png)
 
 
 * E-mail: markus.jesswein@colorado.edu
