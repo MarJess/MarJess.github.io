@@ -8,6 +8,8 @@ layout: default
 
 ## Personal background
 
+Hi, my name is Markus. I'm from Germany and moved to Boulder in early 2025 to start a new job here. I enjoy all kinds of sports, but my favorites are surfing and skateboarding.
+
 ## Educational and professional background 
 
 I am currently working as a postdoctoral researcher at <a href="https://cires.colorado.edu/" target="_blank">**CIRES**</a> and at <a href="https://gml.noaa.gov" target="_blank">**NOAA GML**</a>. 
