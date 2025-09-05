@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 logo: img/jesswein_min.jpg
-show_downloads: true
+show_downloads: false
 
 title: [Markus Jesswein]
 description: [Earth Analytics Data Science Stundent Portfolio]
