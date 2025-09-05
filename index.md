@@ -1,6 +1,5 @@
 ---
 layout: default
-title: null
 ---
 * Test
 * E-mail: markus.jesswein@colorado.edu
