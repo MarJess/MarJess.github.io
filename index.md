@@ -3,7 +3,7 @@ layout: default
 ---
 
 * E-mail: markus.jesswein@colorado.edu
-* Web: <a href="https://cires.colorado.edu/people/markus-jesswein" </a>
+* Web: https://cires.colorado.edu/people/markus-jesswein
 * ORCiD: <a href="https://orcid.org/0000-0001-8966-9787" target="_blank">0000-0001-8966-9787</a>
 
 ## Personal background
