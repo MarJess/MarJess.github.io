@@ -1,4 +1,4 @@
-# MarkusJesswein.github.io
+# MarJess.github.io
 Portfolio webpage
 
 - Postdoctoral researcher
