@@ -10,3 +10,5 @@ title: "Publications"
 4. **Jesswein, M.**, Fernandez, R. P., Berná, L., Saiz-Lopez, A., Grooß, J.-U., Hossaini, R., Apel, E. C., Hornbrook, R. S., Atlas, E. L., Blake, D. R., Montzka, S., Keber, T., Schuck, T., Wagenhäuser, T., and Engel, A.: *Global seasonal distribution of CH2Br2 and CHBr3 in the upper troposphere and lower stratosphere*, Atmos. Chem. Phys., 22, 15049–15070, [doi: 10.5194/acp-22-15049-2022](https://doi.org/10.5194/acp-22-15049-2022), 2022.
 5. **Jesswein, M.**, Bozem, H., Lachnitt, H.-C., Hoor, P., Wagenhäuser, T., Keber, T., Schuck, T., and Engel, A.: *Comparison of inorganic chlorine in the Antarctic and Arctic lowermost stratosphere by separate late winter aircraft measurements*, Atmos. Chem. Phys., 21, 17225–17241, [doi: 10.5194/acp-21-17225-2021](https://doi.org/10.5194/acp-21-17225-2021), 2021.
 6. Schuck, T. J., Lefrancois, F., Gallmann, F., Wang, D., **Jesswein, M.**, Hoker, J., Bönisch, H., and Engel, A.: *Establishing long-term measurements of halocarbons at Taunus Observatory*, Atmos. Chem. Phys., 18, 16553–16569, [doi: 10.5194/acp-18-16553-2018](https://doi.org/10.5194/acp-18-16553-2018), 2018.
+
+[back](./)
