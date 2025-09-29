@@ -10,7 +10,7 @@ layout: default
 
 ### Climate Change - Kleiner Feldberg, Germany
 
-<embed type="text/html" src="img/annual_kl_feldberg_temperatures-2.html" width="400" height="300">
+<embed type="text/html" src="img/annual_kl_feldberg_temperatures-2.html" width="450" height="350">
 
 ![Alt text for the image](img/kleiner_feldberg_trend.png "Optional title text on hover")
 
