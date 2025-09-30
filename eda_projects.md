@@ -23,12 +23,15 @@ Since 1945 in particular cannot represent the annual average, we will not consid
 
 <embed type="text/html" src="img/annual_kl_feldberg_temperatures-2.html" width="450" height="350">
 
-A linear regression using the least squares method (OLS) was performed on the annual average values of the daily maximum and minimum temperatures in order to obtain the temperature trend (see following plot).
+A **linear regression using the least squares method (OLS)** was performed on the annual average values of the daily maximum and minimum temperatures in order to obtain the temperature trend (see following plot).
 The plot alone gives the impression that the trends for annual averaged maximum and minimum temperatures are slightly different. 
-Looking at the slopes, the maximum temperature rises by around 0.0221 degrees per year over the period, and the minimum temperature by around 0.0184 degrees per year.
+Looking at the slopes, the maximum temperature rises by around **0.0221 degrees per year** over the period, and the minimum temperature by around **0.0184 degrees per year**.
 
 ![Alt text for the image](img/kleiner_feldberg_trend.png "Optional title text on hover")
 
+The results of this analysis, with a stronger increase in the trend of maximum temperatures than in the trend of minimum temperatures, indicate an increase in diurnal temperature range (DTR). 
+This is in line with the most recent research in DTR, showing an increase in DTR, mainly due to accelerated warming of the maximum daily temperature. This is thought to be related to a decrease in global cloud cover and the associated increase in solar radiation.
 
+Further details on the analysis and conclusion can be found in the linked notebook. 
 
 [back](./)
