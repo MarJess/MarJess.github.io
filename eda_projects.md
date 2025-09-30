@@ -12,7 +12,7 @@ Even though it is one of the largest airports in Europe, it is located close to 
 
 <embed type="text/html" src="img/ffm_airport.html" width="600" height="600">
 
-### Climate Change - Kleiner Feldberg, Germany
+### [Climate Change - Kleiner Feldberg, Germany](portfolio_post/climate_change_portfolio_kleiner_feldberg.html)
 
 The Kleiner Feldberg is the second-highest mountain in the Taunus mountain range with an elevation of 826 m (2,710 ft), right next to largest montain called Großer Feldberg.
 On the top of the Kleiner Feldberg, there is the Taunus Observatory, which was build in 1913 and is still in use for meteorologocal and geophysical measurements. This station was selected because it is close to my home town of Frankfurt.
@@ -32,6 +32,6 @@ Looking at the slopes, the maximum temperature rises by around **0.0221 degrees 
 The results of this analysis, with a stronger increase in the trend of maximum temperatures than in the trend of minimum temperatures, indicate an increase in diurnal temperature range (DTR). 
 This is in line with the most recent research in DTR, showing an increase in DTR, mainly due to accelerated warming of the maximum daily temperature. This is thought to be related to a decrease in global cloud cover and the associated increase in solar radiation.
 
-Further details on the analysis and conclusion can be found in the linked notebook. 
+Further details on the analysis and conclusion can be found in this [linked notebook](portfolio_post/climate_change_portfolio_kleiner_feldberg.html) (as link in the headline). 
 
 [back](./)
