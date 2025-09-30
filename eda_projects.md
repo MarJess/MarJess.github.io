@@ -21,7 +21,7 @@ The annual averages daily maximum and minimum temperatures are displayed in the 
 The year 1945 has significantly fewer observation days, covering only about 16% of the year. In 1946, about 75% of the year is covered. 
 Since 1945 in particular cannot represent the annual average, we will not consider this year for the trend analysis and they are not displayed.
 
-<embed type="text/html" src="img/annual_kl_feldberg_temperatures-3.html" width="500" height="350">
+<embed type="text/html" src="img/annual_kl_feldberg_temperatures-4.html" width="500" height="350">
 
 A **linear regression using the least squares method (OLS)** was performed on the annual average values of the daily maximum and minimum temperatures in order to obtain the temperature trend (see following plot).
 The plot alone gives the impression that the trends for annual averaged maximum and minimum temperatures are slightly different. 
