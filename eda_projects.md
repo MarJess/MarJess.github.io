@@ -14,7 +14,16 @@ Even though it is one of the largest airports in Europe, it is located close to 
 
 ### Climate Change - Kleiner Feldberg, Germany
 
+The Kleiner Feldberg is the second-highest mountain in the Taunus mountain range with an elevation of 826 m (2,710 ft), right next to largest montain called Großer Feldberg.
+On the top of the Kleiner Feldberg, there is the Taunus Observatory, which was build in 1913 and is still in use for meteorologocal and geophysical measurements. This station was selected because it is close to my home town of Frankfurt.
+
+The annual averages daily maximum and minimum temperatures are displayed in the following plot.
+The year 1945 has significantly fewer observation days, covering only about 16% of the year. In 1946, about 75% of the year is covered. 
+Since 1945 in particular cannot represent the annual average, we will not consider this year for the trend analysis and they are not displayed.
+
 <embed type="text/html" src="img/annual_kl_feldberg_temperatures-2.html" width="450" height="350">
+
+
 
 ![Alt text for the image](img/kleiner_feldberg_trend.png "Optional title text on hover")
 
