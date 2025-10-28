@@ -36,6 +36,6 @@ Further details on the analysis and conclusion can be found in this [linked note
 
 ### [Annual Migration Patterns of the Canada Goose](portfolio_post/migration_portfolio_canada_goose.html)
 
-![Canada Goose Picture](https://www.allaboutbirds.org/guide/assets/photo/59953191-720px.jpg =80x60)
+![Canada Goose Picture](https://www.hawkeye.ca/images/blog-canada-goose1.webp)
 
 [back](./)
