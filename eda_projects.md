@@ -38,4 +38,27 @@ Further details on the analysis and conclusion can be found in this [linked note
 
 ![Canada Goose Picture](https://www.hawkeye.ca/images/blog-canada-goose1.webp)
 
+The Canada goose (Branta canadensis) has a black head and neck, white cheeks, white under its chin, and a brown body. 
+Even though the name suggests its origin, it is more widespread than one might think. 
+It is native to the arctic and temperature regions of North America, but can be found 
+in Europe, New Zealand, Japan, Chile, Argentina,and the Falkland Islands (Long, 1981).
+
+In the chracteristic V-formation, they fly to their wintering grounds and their breeding grounds in winter,
+often a symbol used for the changing seasons in North America. 
+The migration routes of the Canada goose are not genetically determined, but are passed down within the various subpopulations. 
+Young geese learn the migration route and the location of their winter quarters during migration with their parents. 
+Some of the most southerly subpopulations are resindet birds or partial migrants, while more northerly ones are distinct migratory. 
+Thus, some of the more northerly populations sometimes pass their sourthern populations that remain closer to their breeding grounds and spend the winter month much further south.
+
+This brief analysis of the migration of the Canada goose is based on the <a href="https://www.gbif.org" target="_blank">GBIF</a> database from 2024.
+This year's occurrences were linked to maps of the ecoregions and then grouped by ecoregion and month. 
+Very rare occurrences (three or fewer) were excluded from the analysis. 
+In addition, the grouped occurrences were normalized to the size of the ecoregions.
+The occurrences were also normalized spatially and temporally.
+
+The following plot shows the normalized occurrences per ecoregion and month of the year. 
+
+<embed type="text/html" src="img/canada_goose.html" width="500" height="350">
+
+
 [back](./)
