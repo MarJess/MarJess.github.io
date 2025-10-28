@@ -34,4 +34,8 @@ This is in line with the most recent research in DTR, showing an increase in DTR
 
 Further details on the analysis and conclusion can be found in this [linked notebook](portfolio_post/climate_change_portfolio_kleiner_feldberg_20250930.html) (as link in the headline). 
 
+### [Annual Migration Patterns of the Canada Goose](portfolio_post/migration_portfolio_canada_goose.html)
+
+![Canada Goose Picture](https://www.allaboutbirds.org/guide/assets/photo/59953191-720px.jpg =80x60)
+
 [back](./)
