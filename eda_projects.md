@@ -55,10 +55,20 @@ This year's occurrences were linked to maps of the ecoregions and then grouped b
 Very rare occurrences (three or fewer) were excluded from the analysis. 
 In addition, the grouped occurrences were normalized to the size of the ecoregions.
 The occurrences were also normalized spatially and temporally.
+The details to this analysis can be found in [this linked notebook](portfolio_post/migration_portfolio_canada_goose.html) (as link in the headline). 
 
 The following plot shows the normalized occurrences per ecoregion and month of the year. 
 
 <embed type="text/html" src="img/canada_goose_2.html" width="600" height="400">
 
+It can be seen that, based on the GBIF database, the occurrences are mainly limited to North America, Europe, and New Zealand. This agrees with the literature, which identifies these as the main areas of occurrence (e.g. <a href="https://www.thoughtco.com/canada-goose-bird-facts-4584329" target="_blank">Canada Goose Facts</a>).
+The Canada goose was introduced to England as early as the 17th century. In the 19th century, the Canada goose was also recorded as ornamental poultry on the European mainland. In New Zealand, however, the Canada goose was introduced not as ornamental poultry but as game for hunting. 
+
+I would like to highlight a few special features that stood out in the graphic representation of the migration: 
+- In North America and Europe, there is a noticeable migration toward higher northern latitudes during the summer months. However, a certain number always remain in southern latitudes. This reflects the mixture of different subspecies and their migration patterns. Some of the most southerly subpopulations are resindet birds or partial migrants, while more northerly ones are distinct migratory which migrates to warmer regions in the south during winter. 
+- The occurrences in New Zealand are relatively consistent throughout the year, indicating that there is little migration there. Migration here occurs more from the South Island to the North Island and vice versa. 
+- Particularly in June, a considerably higher occurrence can be observed in the southern part of Hudson Bay and James Bay. A very recent publication by <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1002/wlb3.01062" target="_blank">Sorais et al. (2023)</a> described movement patterns and habitat use of molt migrant Canada geese along the east coast of James Bay. They report that the number of Canada geese breeding in temperate zones along the Atlantic and Mississippi flyways has increased significantly since the 1980s. Geese spent 2.8 ± 0.6 days (mean ± standard error of the mean) at 3.2 ± 0.6 resting places (mainly mudflats and salt marshes) from the first week of June in spring and 3.8 ± 1.8 days at 2.0 ± 0.5 resting places (mainly inland waters, moors, and mudflats) from the first week of September on their return south. The increased occurrence in June in particular coincides with the GBIF occurrences.
+
+A detailed analysis of the migration behavior of Canada geese would be very interesting. To this end, it would be useful to have longer records covering several years in order to identify changes in migration patterns caused by factors such as climate change and hunting behavior, e.g. populatioin change due to more hunting of Canada geese.
 
 [back](./)
