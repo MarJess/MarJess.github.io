@@ -58,7 +58,7 @@ The occurrences were also normalized spatially and temporally.
 
 The following plot shows the normalized occurrences per ecoregion and month of the year. 
 
-<embed type="text/html" src="img/canada_goose.html" width="500" height="350">
+<embed type="text/html" src="img/canada_goose.html" width="700" height="500">
 
 
 [back](./)
