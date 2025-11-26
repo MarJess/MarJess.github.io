@@ -71,7 +71,7 @@ I would like to highlight a few special features that stood out in the graphic r
 
 A detailed analysis of the migration behavior of Canada geese would be very interesting. To this end, it would be useful to have longer records covering several years in order to identify changes in migration patterns caused by factors such as climate change and hunting behavior, e.g. populatioin change due to more hunting of Canada geese.
 
-### [Vegetation change in the Everglades National Park - 2000 to 2024](portfolio_post/vegetation_portfolio.html)
+### [Vegetation change in the Everglades National Park - 2000 to 2024](portfolio_post/vegetation_portfolio_20251126.html)
 
 ![National Park Service](https://www.nps.gov/articles/000/images/2A1AF209-1DD8-B71C-07CA99C3B3C02FDAOriginal.jpg?maxwidth=650&autorotate=false&quality=78&format=webp)
 
@@ -89,7 +89,7 @@ The focus was placed on the month of September, following the hottest days of su
 The NDVI is a measure used to quantify the density and health of vegetation, and values range from -1 to 1 where low values corresponds to rocks or exposed soil 
 and high values indigates greener vegetation, e.g. forests and wetlands ([NDVI](https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi)).
 
-The details to this analysis can be found in [this linked notebook](portfolio_post/vegetation_portfolio.html) (as link in the headline).
+The details to this analysis can be found in [this linked notebook](portfolio_post/vegetation_portfolio_20251126.html) (as link in the headline).
 The highlights are presented below. 
 
 A split of the time series and comparison of the periods 2000 to 2012 and  2013 to 2024 shows that coastal areas and areas adjacent to urban and 
@@ -103,7 +103,7 @@ inside the Park than outside. This is also due to the fact that there is an
 urban area adjacent to the national park.
 The following shows the difference between inside and outside the park. 
 
-<embed type="text/html" src="img/everglades_in_out_diff.html" width="600" height="400">
+<embed type="text/html" src="img/everglades_in_out_diff.html" width="500" height="400">
 
 Severals years show substantial decrease of the difference. 
 In 2017 in particular, there was a more drastic decline in the difference compared to previous and subsequent years. 
