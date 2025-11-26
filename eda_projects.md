@@ -77,19 +77,42 @@ A detailed analysis of the migration behavior of Canada geese would be very inte
 
 (Source: National Park Service, https://www.nps.gov/articles/000/everglades-national-park-south-florida.htm)
 
-The Everglades Natioanl Park is an approximalty 1.5 million area at the southern tip of Florida which consist of 
+The Everglades Natioanl Park is an approximalty 1.5 million acres area at the southern tip of Florida which consist of 
 sawgrass marshes, cypress swamps, hardwood hammokcs, pine rocklands, and extensive mangrove forests ([National Park Service, U.S. Department of the Interior](https://www.npshistory.com/publications/ever/brochures/2015.pdf)).
+
+<embed type="text/html" src="img/everglades_satellite.html" width="600" height="400">
 
 Climate change may greatly reshape Everglades National Park by flooding areas through rising sea levels, allowing saltwater to invade and harm its freshwater marshes, and increasing the frequency and severity of hurricanes that can erode shorelines and damage ecosystems.
 
 In this brief analysis, we examine the health of Everglades National Park based on the NDVI, covering the period from 2000 to 2024.
+The focus was placed on the month of September, following the hottest days of summer and the peak season for tropical storms and hurricanes
 The NDVI is a measure used to quantify the density and health of vegetation, and values range from -1 to 1 where low values corresponds to rocks or exposed soil 
 and high values indigates greener vegetation, e.g. forests and wetlands ([NDVI](https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi)).
 
 The details to this analysis can be found in [this linked notebook](portfolio_post/vegetation_portfolio.html) (as link in the headline).
 The highlights are presented below. 
 
+A split of the time series and comparison of the periods 2000 to 2012 and  2013 to 2024 shows that coastal areas and areas adjacent to urban and 
+metropolitan areas of the national park in particular show a decrease  in NDVI, while central areas of the park show an increase in NDVI.
+Because the Everglades sit at a very low elevation, even slight sea-level rise can have major impacts. Saltwater can move farther into freshwater marshes and kill freshwater plants, while higher sea levels can raise groundwater levels and increase vegetation in the park’s interior
 
+<embed type="text/html" src="img/everglades_diff.html" width="600" height="400">
 
+The time series of NDVI values was compared inside and outside the National Park, showing larger values of NDVI
+inside the Park than outside. This is also due to the fact that there is an 
+urban area adjacent to the national park.
+The following shows the difference between inside and outside the park. 
+
+<embed type="text/html" src="img/everglades_in_out_diff.html" width="600" height="400">
+
+Severals years show substantial decrease of the difference. 
+In 2017 in particular, there was a more drastic decline in the difference compared to previous and subsequent years. 
+This is the year, where hurricane Irma striked the Everglades with landfall as a Category 4 storm.
+On September 10, the hurricane moved northward through Florida and Georgia and did extensive damage to the forest canopy
+([USGS](https://www.usgs.gov/special-topics/lcmap/science/lcmap-change-stories-hurricanes-everglades) and the following satellite image).
+
+![hurricane irma](https://www.weather.gov/images/mfl/Hurricane%20Irma/SatAnimation.gif)
+
+(Source: NOAA weater service,  https://www.weather.gov/mfl/hurricaneirma)
 
 [back](./)
