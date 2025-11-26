@@ -71,4 +71,25 @@ I would like to highlight a few special features that stood out in the graphic r
 
 A detailed analysis of the migration behavior of Canada geese would be very interesting. To this end, it would be useful to have longer records covering several years in order to identify changes in migration patterns caused by factors such as climate change and hunting behavior, e.g. populatioin change due to more hunting of Canada geese.
 
+### [Vegetation change in the Everglades National Park - 2000 to 2024](portfolio_post/vegetation_portfolio.html)
+
+![National Park Service](https://www.nps.gov/articles/000/images/2A1AF209-1DD8-B71C-07CA99C3B3C02FDAOriginal.jpg?maxwidth=650&autorotate=false&quality=78&format=webp)
+
+(Source: National Park Service, https://www.nps.gov/articles/000/everglades-national-park-south-florida.htm)
+
+The Everglades Natioanl Park is an approximalty 1.5 million area at the southern tip of Florida which consist of 
+sawgrass marshes, cypress swamps, hardwood hammokcs, pine rocklands, and extensive mangrove forests ([National Park Service, U.S. Department of the Interior](https://www.npshistory.com/publications/ever/brochures/2015.pdf)).
+
+Climate change may greatly reshape Everglades National Park by flooding areas through rising sea levels, allowing saltwater to invade and harm its freshwater marshes, and increasing the frequency and severity of hurricanes that can erode shorelines and damage ecosystems.
+
+In this brief analysis, we examine the health of Everglades National Park based on the NDVI, covering the period from 2000 to 2024.
+The NDVI is a measure used to quantify the density and health of vegetation, and values range from -1 to 1 where low values corresponds to rocks or exposed soil 
+and high values indigates greener vegetation, e.g. forests and wetlands ([NDVI](https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi)).
+
+The details to this analysis can be found in [this linked notebook](portfolio_post/vegetation_portfolio.html) (as link in the headline).
+The highlights are presented below. 
+
+
+
+
 [back](./)
