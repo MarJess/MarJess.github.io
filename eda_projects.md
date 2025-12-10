@@ -122,7 +122,37 @@ Global climate change is altering temperature conditions and influencing water a
 
 Climate Data were taken from
 Meteorological data was taken from [Global Historical Climatology Network daily (GHCNd)](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily#:~:text=The%20Global%20Historical%20Climatology%20Network,suite%20of%20quality%20assurance%20reviews.).
+Ten stations were selected, distributed globally and marked in the map below.
+
+<embed type="text/html" src="img/station_overview.html" width="600" height="400">
 
 The details to this analysis can be found in [this linked notebook](portfolio_post/climate_final_project.html) (as link in the headline). This includes the analysis of seasonal and annual trends. In the following, we will only discuss the annual trends. 
 
+Annual trends were calculated only for years with fewer than 60 missing days, except for Ushuaia and Praia, due to limited data. Following Zhong et al. (2023), each station’s time series was split into pre-1990 and post-1990 periods, revealing that many stations exhibit notable or even reversed trend changes between the two intervals.
+
+Annual trends from the stations:
+
+| Station   | Before 1990 [°C/decade] | After 1990 [°C/decade]  |
+| :-------  | :------: | -------: |
+| Svalbard  | 0.08   | -0.3  |
+| Barrow    | -0.16  | -0.19|
+| Salt Lake City  | -0.4 | -0.36 |
+| Kleiner Feldberg| -0.05| 0.04 |
+| Kathmandu | 1.11 | 0.41 |
+| Praia     | -  | -0.7 |
+| Mendoza   | -0.87  | -0.53 |
+| Ushuaia   | 0.45 | -0.57 |
+| Cape Grim 2 | -0.02 | 0.2 |
+| Cape Grim 2 | -  | 0.11 |
+
+![Alt text for the image](img/annual_trends_stations.png "Optional title text on hover")
+
+Most stations show a negative DTR trend after 1990, seemingly contradicting recent studies that report a shift to positive trends. However, when comparing these station-level results with the spatial trend patterns in the GSOD dataset (1991–2020) presented by Zhong et al. (2023), the findings are generally consistent.
+
+![Zong_et_al_2024_2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-43007-6/MediaObjects/41467_2023_43007_Fig2_HTML.png?as=webp)
+
+(Source: Zhong et al. (2023): Reversed asymmetric warming of sub-diurnal temperature over land during recent decades)
+
 [back](./)
+
+
