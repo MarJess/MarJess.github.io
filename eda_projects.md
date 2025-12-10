@@ -115,4 +115,14 @@ On September 10, the hurricane moved northward through Florida and Georgia and d
 
 (Source: NOAA weater service,  https://www.weather.gov/mfl/hurricaneirma)
 
+
+### [Comparison of daily temperature variability trends from various stations distributed globally](portfolio_post/climate_final_project.html)
+
+Global climate change is altering temperature conditions and influencing water and carbon exchange in ecosystems. An important indicator is the daily temperature range (DTR), i.e., the difference between day and night temperatures. Earlier studies (Kar et al., 1993) mostly reported declining DTR trends, while more recent studies (Zhong et al., 2023; Liu et al., 2024) suggest a shift toward mostly increasing trends since the late 1980s to early 1990s. Using measurement stations distributed worldwide, the planned study will evaluate how DTR trends differ at different locations, determine whether there is an overall positive or negative trend, and compare these results with those from the current literature.
+
+Climate Data were taken from
+Meteorological data was taken from [Global Historical Climatology Network daily (GHCNd)](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily#:~:text=The%20Global%20Historical%20Climatology%20Network,suite%20of%20quality%20assurance%20reviews.).
+
+The details to this analysis can be found in [this linked notebook](portfolio_post/climate_final_project.html) (as link in the headline). This includes the analysis of seasonal and annual trends. In the following, we will only discuss the annual trends. 
+
 [back](./)
