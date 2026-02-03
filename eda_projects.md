@@ -153,6 +153,49 @@ Most stations show a negative DTR trend after 1990, seemingly contradicting rece
 
 (Source: Zhong et al. (2023): Reversed asymmetric warming of sub-diurnal temperature over land during recent decades)
 
+
+### [Vegetation data to estimate depression prevalence in Seattle](portfolio_post/portfolio_urban_greenspace.html)
+
+Increasing urbanization has raised concerns about mental health, highlighting the importance of urban green spaces. Although evidence suggests that green spaces may reduce the risk of depression and anxiety, uncertainties remain about the strength and consistency of this relationship. A recent meta-analysis by [Liu et al., 2023](https://www.sciencedirect.com/science/article/abs/pii/S0013935123011076) found that greater green space coverage and higher NDVI levels are associated with lower risks of depression and anxiety. Seattle, a U.S. city with relatively high depression prevalence, also faces climate-related stressors such as flooding, pollution, and wildfire smoke that may further affect residents’ mental health. This analysis examines the relationship between depression prevalence and urban green space in Seattle by calculating landscape metrics—patch, edge, and fragmentation—using depression data from the [CDC PLACES](https://www.cdc.gov/places/index.html) dataset and urban green space imagery from the Microsoft Planetary Computer STAC catalog.
+The details to this analysis can be found in [this linked notebook](portfolio_post/portfolio_urban_greenspace.html) (as link in the headline)
+
+The U.S Center for Disease Control (CDC) provides severeal health variables through their [Places Dataset](https://www.cdc.gov/places/index.html).
+Here we look at the adult depression for Seattle. 
+Thd following plot shows the depression prevalence in Seattle census tracts. 
+
+<embed type="text/html" src="img/depression_census.html" width="600" height="400">
+
+The map reveals data gaps in some census tracts. Higher depression prevalence appears west of the airport and industrial areas and in north-central Seattle, but without clear clustering.
+I first suggestion is that pollution from industrial activity and the airport may play a role, though lower depression rates east of these areas suggest other factors are involved. 
+Higher depression rates also tend to coincide with higher crime levels.
+To determine the relationship between depression and urban green spaces, we use data from the Microsoft Planetary Computer SpatioTemporal Access Catalog (STAC) and calculate the metrics percentage vegetation, mean patch size, and edge density. The follwing plots show again the depression prevalence but also the vehetation edge density of Seattle 
+
+<embed type="text/html" src="img/ndvi_census.html" width="600" height="400">
+
+Comparing these two figures, a direct correlation cannot be immediately discerned. 
+In general, census tracts with higher prevalence also have slightly higher values in vegetation edge density. 
+
+In the final step, we test the possibility of determining depression prevalence from vegetation metrics. 
+For this, we use the linear ordinary least squares (OLS) regression. 
+The most suitable data from our vegetation dataset are edge density and mean patch size, with mean patch size being logarithmically transformed to eliminate excessive skewness
+(see individual steps in the [this notebook](portfolio_post/portfolio_urban_greenspace.html)).
+
+Predicted and actual depression data were finally compared to determine the quality of the model. The following figure shows the model error. 
+
+<embed type="text/html" src="img/error_chloropleth.html" width="600" height="400">
+
+The error analysis indicates that the model systematically underestimates areas with high depression prevalence and overestimates others, implying that vegetation and related metrics alone are inadequate for explaining adult depression patterns. Socioeconomic factors such as crime, income, and financial stability are likely more influential. Seasonal conditions—particularly limited sunlight and Seattle’s persistently cloudy climate—may also contribute through elevated rates of seasonal affective disorder.
+
+##### Sources 
+Centers for Disease Control and Prevention. PLACES: Local Data for Better Health. Accessed [2026-01-30]. https://www.cdc.gov/places
+
+Ziquan Liu, Xuemei Chen, Huanhuan Cui, Yuxuan Ma, Ning Gao, Xinyu Li, Xiangyan Meng, Huishu Lin, Halidan Abudou, Liqiong Guo, Qisijing Liu (2023): Green space exposure on depression and anxiety outcomes: A meta-analysis. https://doi.org/10.1016/j.envres.2023.116303
+
+Cascade PBS. Accessed [2026-01-30]: Climate change takes a toll on Seattleites' mental health. https://www.cascadepbs.org/environment/2022/06/climate-change-takes-toll-seattleites-mental-health/
+
+Microsoft Planetary Computer SpatioTemporal Assess cataloc (STAC). Accessed [2026-01-30]. https://planetarycomputer.microsoft.com/catalog
+
+
 [back](./)
 
 
