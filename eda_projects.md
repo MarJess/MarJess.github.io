@@ -196,6 +196,38 @@ Cascade PBS. Accessed [2026-01-30]: Climate change takes a toll on Seattleites' 
 Microsoft Planetary Computer SpatioTemporal Assess cataloc (STAC). Accessed [2026-01-30]. https://planetarycomputer.microsoft.com/catalog
 
 
+### [Land cover classification at Kawartha Lakes (Ontario)](portfolio_post/kawartha_clustering_portfolio.html)
+
+The Kawartha Lakes are several lakes in south-central Ontario, Canada. Together, they form the upper watershed of the Trent River. 
+These lakes ranges in size from 2 to 83 $km^2$.
+
+The Trent-Severn Waterway makes its way through many of these lakes. 
+This area is also very well known for its recreational tourism. 
+
+We use a k-means **unsupervised** clustering algorithm to group pixels by similar spectral signatures. 
+
+We will use the [harmonized Sentinel/Landsat multispectral
+dataset](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf).
+The data can be accessed with an [Earthdata
+account](https://www.earthdata.nasa.gov/learn/get-started) and the
+[`earthaccess` library from
+NSIDC](https://github.com/nsidc/earthaccess). 
+
+Every step of this analysis can be seen in [this notebook](portfolio_post/kawartha_clustering_portfolio.html)).
+
+<embed type="text/html" src="img/kawartha_site_plot.html" width="600" height="400">
+
+This site is located in south-central Ontario, Canada. 
+The cain of lakes is clearly visible. North of the lakes is a predominantly natural area with forests, whereas around the lakes and south of them, agricultural land with fields predominates. In additon, lager cities can be found south of the lakes, for example Peterborogh and Kawartha Lakes.
+
+
+
+##### Sources 
+
+https://parks.canada.ca/lhn-nhs/on/trentsevern/info/infonet/niveau-eau-water-levels
+
+https://thecanadianencyclopedia.ca/en/article/kawartha-lakes
+
 [back](./)
 
 
