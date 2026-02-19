@@ -220,7 +220,15 @@ Every step of this analysis can be seen in [this notebook](portfolio_post/kawart
 This site is located in south-central Ontario, Canada. 
 The cain of lakes is clearly visible. North of the lakes is a predominantly natural area with forests, whereas around the lakes and south of them, agricultural land with fields predominates. In additon, lager cities can be found south of the lakes, for example Peterborogh and Kawartha Lakes.
 
+Using the Elbow method, we first determined the optimal number of clusters. 
+It appears that a number of 4 to 5 clusters is optimal, so we decided on 5. 
+![Alt text for the image](img/kawartha_elbow_plot.png "Optional title text on hover")
 
+The following figures show the RGB composite image with and the clustered image.
+
+<embed type="text/html" src="img/rgb_kmeans_combi_plot.html" width="600" height="400">
+
+The k-means classification shows good results for the area under investigation. The excellent classification of the water areas (in this case in orange) is particularly evident. The division of the clusters south and north of the lakes is also clearly visible. Red and purple clusters dominate south of the lakes, while green and blue clusters dominate north of the lakes. This reflects the division of land use or land type, with urban and agricultural areas south of the lakes and natural, forested areas north of the lakes.
 
 ##### Sources 
 
