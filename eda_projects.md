@@ -239,6 +239,23 @@ https://thecanadianencyclopedia.ca/en/article/kawartha-lakes
 
 ### [Historical and future habitat suitability of Indiangrass](portfolio_post/habitat_suitability_indiangrass.html)
 
+Sorghastrum nutans (Indiangrass) is a widespread, resilient grass found across most of the United States, from Quebec and Maine to Arizona and northern Mexico, and east to Florida.
+It grows in prairies, savannas, open woodlands, and roadsides, thriving in well-drained soils with a wide range of textures and pH (about 5–7.8). It typically reaches 3–8 feet tall and can grow from sea level up to about 7,000 feet, often on south- to southwest-facing slopes.
+Indiangrass tolerates varied environmental conditions, including 12–40 inches of annual rainfall and has deep roots (at least 24 inches), contributing to its adaptability.
+
+Two sites were selected for this project, both of which are relatively far apart.
+One is the Richard Bong Recreation Area (RB) in Wisconsin, and the other is the Balcones Canyonlands National Wildlife Refuge (BC) in Texas. This gives us two sites that may respond differently to a changing climate and, consequently, to the habitat suitability of Indian grass.
+
+We use the fuzzy logic model to assess habitat suitability for two climate periods: a historical period (1970–1999) and a future period (2071–2099). For the future period, we consider the RCP8.5 emissions scenario, which assumes high emissions of greenhouse gases.
+
+The following figures show the data used for the fuzzy logo model
+
+![Alt text for the image](img/harmonized_RB_.png "Optional title text on hover")
+
+![Alt text for the image](img/harmonized_BC_.png "Optional title text on hover")
+
+In addition to precipitation and temperature data from historical records and future scenarios, soil pH, elevation, aspect, and slope information are used.
+
 
 [back](./)
 
