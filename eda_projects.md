@@ -246,15 +246,36 @@ Indiangrass tolerates varied environmental conditions, including 12–40 inches 
 Two sites were selected for this project, both of which are relatively far apart.
 One is the Richard Bong Recreation Area (RB) in Wisconsin, and the other is the Balcones Canyonlands National Wildlife Refuge (BC) in Texas. This gives us two sites that may respond differently to a changing climate and, consequently, to the habitat suitability of Indian grass.
 
-We use the fuzzy logic model to assess habitat suitability for two climate periods: a historical period (1970–1999) and a future period (2071–2099). For the future period, we consider the RCP8.5 emissions scenario, which assumes high emissions of greenhouse gases.
+We use the fuzzy logic model to assess habitat suitability for two climate periods: a historical period (1970–1999) and a future period (2071–2099). For the future period, we consider the RCP8.5 emissions scenario, which assumes high emissions of greenhouse gases. A detailes analysis can be found [this notebook](portfolio_post/habitat_suitability_indiangrass.html)).
 
-The following figures show the data used for the fuzzy logo model
+The following figures show the data used for the fuzzy logic model.
 
-![Alt text for the image](img/harmonized_RB_.png "Optional title text on hover")
+![Alt text for the image](img/harmonized_RB.png "Optional title text on hover")
 
-![Alt text for the image](img/harmonized_BC_.png "Optional title text on hover")
+![Alt text for the image](img/harmonized_BC.png "Optional title text on hover")
 
 In addition to precipitation and temperature data from historical records and future scenarios, soil pH, elevation, aspect, and slope information are used.
+
+The following plots show the habitat suitability for the two sites and for historical and future climate. 
+It is based on the variables given above, which are included in the fuzzy logic model. 
+0 means a poor habitat suitability and 1 means good suitability. 
+
+![Alt text for the image](img/suitability_richard_bong_historical.png "Optional title text on hover")
+
+![Alt text for the image](img/suitability_richard_bong_future.png "Optional title text on hover")
+
+![Alt text for the image](img/suitability_balcones_canyonlands_historical.png "Optional title text on hover")
+
+![Alt text for the image](img/suitability_balcones_canyonlands_future.png "Optional title text on hover")
+
+
+By comparing a northern site (Wisconsin) and a southern site (Texas) between historical (1970-1999) and futute (2071-2099) periods, the analysis highlights a substantial geographical divergence. 
+
+* Northen site: habitat suitability is expected to remain stable ot increrase slighty. Temperature will rise within the plant's tolerance and slight increase in precipitation.
+* Southern site: habitat suitability is projected to decline. Drastic decreasing precipitation and rising temperature.
+
+This study concludes that under extreme climate change, the ideal habitat for Indiangrass will shift northward. 
+Southern regions may become too arid and hot to sustain historical population levels, while northern regions may become more favorable. 
 
 
 [back](./)
