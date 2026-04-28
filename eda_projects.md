@@ -277,7 +277,7 @@ By comparing a northern site (Wisconsin) and a southern site (Texas) between his
 This study concludes that under extreme climate change, the ideal habitat for Indiangrass will shift northward. 
 Southern regions may become too arid and hot to sustain historical population levels, while northern regions may become more favorable. 
 
-### Final Project: Equivalent Latitude - Comparison of two PV-based calculations and comparison of two reanalysis products
+### Final Project: Equivalent Latitude - Comparison of two PV-based calculations and comparison of two reanalysis products (To be continued)
 
 The equivalent latitude is a commonly used quasi-Lagrangian coordinate that is primarily used in the stratosphere. 
 It is defined as the latitude that encloses a circle centered at the pole with the same area as the isoline of an atmospheric field (e.g. potential vorticity (PV)).
