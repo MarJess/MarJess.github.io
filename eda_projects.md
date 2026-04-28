@@ -296,7 +296,7 @@ A contour mapping function interpolates PV isolines. The geometric areas are cal
 This method is called the Region of Interest method, and the authors state that it is significantly faster and more accurate than the traditional method. They use the IDL programming language for this purpose. 
 
 In this project, we first intend to test both methods using current reanalysis products, which have significantly higher resolutions than those used in the original publication. We will use two reanalysis products: MERRA-2 and ERA5 (se following table for key information). Additionally, we aim to compare these two reanalysis products. The calculations will be implemented in Python, which has not yet been done for either method. Only one freely available Python package (pyvortey) was found that includes the piecewise method.
-In addition to reanalysis products, MLS satellite data (ozone and temperature) and the SWOOSH product from NOAA are also used.
+In addition to reanalysis products, MLS satellite data (ozone and temperature) and the [SWOOSH]([https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi](https://csl.noaa.gov/groups/csl8/swoosh/)) product from NOAA are also used.
 
 | MERRA-2 (NASA) | ERA5 (ECMWF) | 
 | :--- | :--- | 
@@ -305,7 +305,19 @@ In addition to reanalysis products, MLS satellite data (ozone and temperature) a
 | 3 - hourly |  1 - hourly  | 
 
 The following are some key findings of this analysis.
+The two follwoing plots show PV against Equivalent Latitude for severeal isentropic levels (350 K to 750 K) for both methods and both reanalysis products. 
+The key findings are that the greatest differences between the two methods are primarily observed in the respective summer hemispheres, 
+where PV gradients on isentropic surfaces are significantly weaker, as well as at the poles, where small-scale features are present. 
+Overall, differences are in der range of around 0.1° to 0.6° and typically slightlz larger for MERRA-2 (slightly courser resolution compared to ERA5).
+Thus, the differences between the two methods are very small and negligible for most applications of the coordinate.
 
+![Alt text for the image](img/pw_roi_comparion_ERA5_20200630_1200.png "Optional title text on hover")
+![Alt text for the image](img/pw_roi_comparion_MERRA2_20200630_1200.png "Optional title text on hover")
+
+We also examined the differences between the two reanalysis products when using the same method. 
+To do this, we calculated Equipment Latitude fields for days in 2020 (though only at 12:00 UTC). 
+
+![Alt text for the image](img/pw_roi_comparion_ERA5_20200630_1200.png "Optional title text on hover")
 
 [back](./)
 
