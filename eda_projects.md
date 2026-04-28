@@ -277,7 +277,7 @@ By comparing a northern site (Wisconsin) and a southern site (Texas) between his
 This study concludes that under extreme climate change, the ideal habitat for Indiangrass will shift northward. 
 Southern regions may become too arid and hot to sustain historical population levels, while northern regions may become more favorable. 
 
-### Final Project: Equivalent Latitude - Comparison of two PV-based calculations and comparison of two reanalysis products (To be continued)
+### [Final Project: Equivalent Latitude - Comparison of two PV-based calculations and comparison of two reanalysis products (To be continued)](portfolio_post/01_eqlat_reanalysis_comparison_jesswein.html)
 
 The equivalent latitude is a commonly used quasi-Lagrangian coordinate that is primarily used in the stratosphere. 
 It is defined as the latitude that encloses a circle centered at the pole with the same area as the isoline of an atmospheric field (e.g. potential vorticity (PV)).
@@ -296,7 +296,7 @@ A contour mapping function interpolates PV isolines. The geometric areas are cal
 This method is called the Region of Interest method, and the authors state that it is significantly faster and more accurate than the traditional method. They use the IDL programming language for this purpose. 
 
 In this project, we first intend to test both methods using current reanalysis products, which have significantly higher resolutions than those used in the original publication. We will use two reanalysis products: MERRA-2 and ERA5 (se following table for key information). Additionally, we aim to compare these two reanalysis products. The calculations will be implemented in Python, which has not yet been done for either method. Only one freely available Python package (pyvortey) was found that includes the piecewise method.
-In addition to reanalysis products, MLS satellite data (ozone and temperature) and the [SWOOSH]([https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi](https://csl.noaa.gov/groups/csl8/swoosh/)) product from NOAA are also used.
+In addition to reanalysis products, MLS satellite data (ozone and temperature) and the [SWOOSH]([https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi](https://csl.noaa.gov/groups/csl8/swoosh/)) product from NOAA are also used. A detailes analysis can be found [this notebook](portfolio_post/01_eqlat_reanalysis_comparison_jesswein.html)) and the .ipynb scripts can be found in the prijects repository.
 
 | MERRA-2 (NASA) | ERA5 (ECMWF) | 
 | :--- | :--- | 
