@@ -316,8 +316,42 @@ Thus, the differences between the two methods are very small and negligible for 
 
 We also examined the differences between the two reanalysis products when using the same method. 
 To do this, we calculated Equipment Latitude fields for days in 2020 (though only at 12:00 UTC). 
+Among other things, the root mean square deviation (RMSD) of MERRA2 and ERA5 was calculated for each season and for various latitude ranges (see following plot).
+Here, larger differences between MERRA-2 and ERA5 are visible in the summer hemisphere mid and high-latitudes and lower isentropic leveles. 
+The differences become less pronounced as isentropic height increases, but in the spring, differences can still be observed in the mid-latitudes of the Southern Hemisphere.
+This is the time when the Antarctic vortex breaks up and forms filaments, which may be captured differently in these two reanalyses. 
 
-![Alt text for the image](img/pw_roi_comparion_ERA5_20200630_1200.png "Optional title text on hover")
+![Alt text for the image](img/era5_merra2_comp_season_PW.png "Optional title text on hover")
+
+To determine which Renalyse product tends to be more accurate, we looked at ozone from MLS satellite data for selected days and calculated the equivalent latitude for these days using ERA5 and MERRA2. 
+We then determined the zonale mean of ozone, using both the standard geographical latitude and the equivalent latitudes from MERRA2 and ERA5. 
+Since ozone levels should follow global dynamic pattens, one would expect a more compact distribution across Equivalent Latitude, and thus smaller standard deviations in the mean values. The following plot shows the comparison for June 30, 2020. 
+It is evident that both reanalyses, when applied to equivalent latitudes in the Southern Hemisphere—and thus during winter—result in a better representation of the zonal mean with a lower relative standard deviation. Air masses within and outside the polar vortex are better resolved. However, both reanalyses show a higher relative standard deviation in the Northern Hemisphere. 
+
+![Alt text for the image](img/Multi_MLS_20200630.png "Optional title text on hover")
+
+The results obtained using the SWOOSH data will be discussed in greater detail as this project continues in the summer semester. 
+
+#### Summary
+The Piecewise-Constant and Region of Interest method show only small differences (0.1° to around 0.6°). 
+However, the traditional Piecewise-Constant method is currently significantly faster to compute in Python, so it continues to be the preferred method here. 
+The greatest differences are found in regions with weak PV gradient and/or near the poles, where the areas become smaller.
+MERRA-2 and ERA5 are overall comparable, but show larger differences in respective summer hemispheres (weak PV gradients) and lower isentropic levels (more structure).
+PV-based Equivalent Latitude seems to perform better in winter hemisphere, where PV gradient on isentropes are stronger.
+SWOOSH monthly zonal mean ozone distribution - not really satisfying (not shown herer). 
+Next step is look at N2O from SWOOSH (waiting for data) and move to Machine Learning approach.
+
+Sources: 
+
+Añel JA, Allen DR, Sáenz G, Gimeno L, de la Torre L (2013) Equivalent Latitude Computation Using Regions of Interest (ROI). PLoS ONE 8(9): e72970. https://doi.org/10.1371/journal.pone.0072970
+
+Copernicus Climate Change Service, Climate Data Store, (2023): ERA5 hourly data on pressure levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). DOI: 10.24381/cds.bd0915c6 (Accessed on 20-04-2026)
+
+Global Modeling and Assimilation Office (GMAO). (2015). MERRA-2 inst3_3d_asm_Np: 3d, 3-Hourly, Instantaneous, Pressure-Level, Assimilation, Assimilated Meteorological Fields V5.12.4. Goddard Earth Sciences Data and Information Services Center (GES DISC). https://doi.org/10.5067/QBZ6MG944HW0
+
+Schwartz, M. (2021). MLS/Aura Level 2 Ozone (O3) Mixing Ratio V005. NASA Goddard Earth Sciences Data and Information Services Center. https://doi.org/10.5067/AURA/MLS/DATA2516 Date Accessed: 2026-04-20
+
+Schwartz, M. (2021). MLS/Aura Level 2 Temperature V005. NASA Goddard Earth Sciences Data and Information Services Center. https://doi.org/10.5067/AURA/MLS/DATA2520 Date Accessed: 2026-04-20
 
 [back](./)
 
