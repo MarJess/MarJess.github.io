@@ -277,6 +277,35 @@ By comparing a northern site (Wisconsin) and a southern site (Texas) between his
 This study concludes that under extreme climate change, the ideal habitat for Indiangrass will shift northward. 
 Southern regions may become too arid and hot to sustain historical population levels, while northern regions may become more favorable. 
 
+### Final Project: Equivalent Latitude - Comparison of two PV-based calculations and comparison of two reanalysis products
+
+The equivalent latitude is a commonly used quasi-Lagrangian coordinate that is primarily used in the stratosphere. 
+It is defined as the latitude that encloses a circle centered at the pole with the same area as the isoline of an atmospheric field (e.g. potential vorticity (PV)).
+
+Since this is a quasi-Lagrangian coordinate, it moves along with the air masses, thereby eliminating adiabatic transport.
+This separates dynamic variability from chemical changes, such as photochemical ozone depletion in the Arctic or Antarctic vortices.
+This coordinate is therefore frequently used for climatological studies of the stratosphere, 
+particularly when comparing model data with observational data, where the observational data are often limited in time and space.
+
+Traditionally, potential vorticity fields are used on isentropic surfaces to determine equivalent latitude, based on reanalysis data.
+It is assumed that the PV value is constant within each grid cell of the reanalysis field, and all grid cells whose PV value is below a given threshold are identified.
+The areas of all selected cells are added together, and the equivalent latitude is calcualted from the totoal are. This method is called Piecewise-Constant method. 
+
+In their 2013 publication, Anel et al. presented an extension of this method. In this approach, PV is not treated as a constant between grid cells but can vary within the cell. 
+A contour mapping function interpolates PV isolines. The geometric areas are calculated and converted to equivalent latitude. 
+This method is called the Region of Interest method, and the authors state that it is significantly faster and more accurate than the traditional method. They use the IDL programming language for this purpose. 
+
+In this project, we first intend to test both methods using current reanalysis products, which have significantly higher resolutions than those used in the original publication. We will use two reanalysis products: MERRA-2 and ERA5 (se following table for key information). Additionally, we aim to compare these two reanalysis products. The calculations will be implemented in Python, which has not yet been done for either method. Only one freely available Python package (pyvortey) was found that includes the piecewise method.
+In addition to reanalysis products, MLS satellite data (ozone and temperature) and the SWOOSH product from NOAA are also used.
+
+| MERRA-2 (NASA) | ERA5 (ECMWF) | 
+| :--- | :--- | 
+| 1980 - today | 1940 - today | 
+| 0.5°x0.635° (lat x lon) |  0.25°x0.25° (lat x lon)  | 
+| 3 - hourly |  1 - hourly  | 
+
+The following are some key findings of this analysis.
+
 
 [back](./)
 
