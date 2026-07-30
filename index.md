@@ -21,3 +21,5 @@ I then worked on my PhD at the <a href="https://www.goethe-university-frankfurt.
 
 [Earth Data Analytics Projects](./eda_projects.html).
 
+[Final Project: PV-based Equivalent Latitude Revisited](./final_project.html).
+
